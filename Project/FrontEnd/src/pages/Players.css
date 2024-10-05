@@ -1,0 +1,54 @@
+.center{
+    text-align: center;
+    margin: auto;
+    width: 50%;
+}
+
+.RealMadridBackground{
+  background: radial-gradient(circle at center, white 30%, #D4AF37 85%, #D4AF37 100%);
+
+  
+  }
+  
+.MancityBackground{
+  background: radial-gradient(circle at center, white 30%, rgba(0, 212, 255, 1) 85%, rgba(0, 212, 255, 1) 100%);
+  }
+
+
+  
+  .backgroundRma {
+    background-image: url(https://i.pinimg.com/originals/82/eb/c3/82ebc3c0d6aa4b47c5ca794b171d6355.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 2rem;  
+    width: 100%;  
+  }
+  
+  .backgroundManCity {
+    background-image: url(https://i.pinimg.com/originals/52/ca/eb/52caebcbf6663e0bc5169b8053e65285.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 2rem; 
+    width: 100%;  
+    padding:0;
+    margin:0;
+  }
+  
+  .carousel-container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 100vh; /* Set the height of the container to 100% of the viewport height */
+    width: 100vh;
+    
+   
+  }
+  
+  .PlayerCard {
+    max-width: calc(100% / 3 - 1rem); /* Adjust the max-width of players */
+    margin: 15rem;
+  }
+  
+  

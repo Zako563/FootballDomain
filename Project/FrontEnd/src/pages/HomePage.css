@@ -1,0 +1,113 @@
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.background {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  text-align: center;
+}
+
+.football-player {
+  display: block;
+  margin-left: 25rem;
+  margin-top: 3rem;
+  position: relative;
+  max-width: 70%;
+  max-height: 80%; 
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 20px;
+}
+
+.welcome-text {
+  color: gold;
+  font-size: 20px;
+  position: absolute;
+  top: -0.5px;
+  left: 0;
+}
+
+.final-project-text {
+  color: white;
+  font-size: 80px;
+  margin-bottom: 100px;
+}
+
+.football-page-text {
+  color: rgba(200, 200, 200, 0.3);
+  font-size: 6em;
+  position: relative; /* Set position to relative */
+}
+
+.heritage-text {
+  color: rgba(200, 200, 200, 0.3);
+  font-size: 5em;
+  position: relative;
+  top: -0.5em; /* Adjust the value to fine-tune the vertical position */
+  left: 4em;
+}
+.no-scroll-bar {
+  overflow: hidden;
+}
+
+/* Media Query for smaller screens */
+/* Existing styles ... */
+
+/* Media Query for smaller screens */
+@media (max-width: 768px) {
+  .overlay {
+    font-size: 4vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .football-player {
+    margin: 5rem auto 2rem; /* Adjust the margin as needed */
+    max-width: 60%; /* Adjust the percentage as needed */
+    max-height: 60%; /* Adjust the percentage as needed */
+  }
+
+  .welcome-text {
+    font-size: 3vw;
+  }
+
+  .final-project-text {
+    font-size: 10vw;
+    display: block; /* Display on smaller screens */
+    text-align: center; /* Center the text */
+  }
+
+  .football-page-text {
+    font-size: 2em;
+    display: none; /* Hide on smaller screens */
+  }
+
+  .heritage-text {
+    font-size: 1.5em;
+    left: 1em;
+    display: none; /* Hide on smaller screens */
+  }
+
+  
+}
+
