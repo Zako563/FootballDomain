@@ -5,7 +5,7 @@
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
 # FootballDomain
-Full Stack project about football.
+This is my first full-stack project. I chose to make a website that can display players's stats of the season. You can get information about the players and the teams that I put. You can see what players a team has and you can also go the other way around and see which team a player is playing in.
 # Features:
 - User can view players from many teams (2 teams for the moment)
 - User can view the stats of a specific players
